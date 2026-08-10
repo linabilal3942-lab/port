@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lina Bilal — Full-Stack Web & ERP Developer</title>
+<meta name="description" content="Lina Bilal is a Full-Stack Web & ERP Developer building responsive web applications with React, Python and PostgreSQL, and customizing Odoo ERP systems.">
+<meta name="keywords" content="Lina Bilal, Full Stack Developer, React Developer, Odoo ERP Developer, PostgreSQL, Web Development Portfolio, Worabe University">
+<meta name="author" content="Lina Bilal">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://linabilal.dev/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lina Bilal — Full-Stack Web & ERP Developer">
+<meta property="og:description" content="Responsive web apps with React & Python, PostgreSQL data design, and Odoo ERP customization.">
+<meta property="og:url" content="https://linabilal.dev/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#060911">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/icons/logo-icon.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="dark">
+
+<!-- Preloader -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <span class="preloader-mark">LB</span>
+    <div class="preloader-bar"><span></span></div>
+  </div>
+</div>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><img src="assets/icons/logo-icon.svg" alt="" class="logo-mark" width="32" height="32"> Lina Bilal</a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">🌙</button>
+      <a href="#contact" class="nav-cta">Start a project</a>
+      <button class="nav-toggle-btn" id="navToggleBtn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+  <!-- HOME / HERO -->
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="hero-kicker eyebrow">Available for new projects</div>
+        <h1>I build products <span class="grad">end&#8209;to&#8209;end</span> — interface to query plan.</h1>
+        <div class="role-line"><span id="roleText">Full Stack Web Developer</span><span class="cursor"></span></div>
+        <p class="lead">I build responsive web applications with React and Python, design data models in PostgreSQL, and customize Odoo ERP systems — connecting real business workflows to a real database layer.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View projects →</a>
+          <a href="#contact" class="btn-secondary">Get in touch</a>
+        </div>
+        <div class="hero-stats">
+          <div><span class="num">5+</span><span class="lbl">Projects deployed</span></div>
+          <div><span class="num">3rd</span><span class="lbl">Year CS student</span></div>
+          <div><span class="num">3</span><span class="lbl">Certifications earned</span></div>
+        </div>
+      </div>
+
+      <div class="pipeline reveal" id="pipelineCard">
+        <div class="pipeline-head">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <span class="tag">request_pipeline.trace</span>
+        </div>
+        <div class="pipeline-track">
+          <div class="stage"><div class="stage-icon">🖥️</div><div class="stage-text"><div class="t1">Client</div><div class="t2">Browser · fetch()</div></div></div>
+          <div class="connector"><span class="packet"></span></div>
+          <div class="stage"><div class="stage-icon">⚛️</div><div class="stage-text"><div class="t1">React</div><div class="t2">Component tree · state</div></div></div>
+          <div class="connector"><span class="packet"></span></div>
+          <div class="stage"><div class="stage-icon">🐍</div><div class="stage-text"><div class="t1">Python Backend</div><div class="t2">Logic · validation · ERP</div></div></div>
+          <div class="connector"><span class="packet"></span></div>
+          <div class="stage db"><div class="stage-icon">🗄️</div><div class="stage-text"><div class="t1">PostgreSQL</div><div class="t2">Query · index · commit</div></div></div>
+        </div>
+        <div class="pipeline-foot">
+          <span>200 OK · 84ms</span>
+          <span class="ok">● connection healthy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="ring"></div>
+          <img src="assets/icons/profile.png" alt="Lina Bilal" class="profile-img">
+        </div>
+        <div class="about-copy">
+          <div class="eyebrow">About</div>
+          <h2 class="section-head" style="margin-bottom:20px;">The whole stack, one point of accountability.</h2>
+          <p>I'm <strong>Lina Bilal Hamid</strong>, a third-year Computer Science student at Worabe University specializing in full-stack web development and Enterprise Resource Planning (ERP) systems. I like owning a feature from the first click to the last database commit — fewer handoffs, fewer misunderstandings between "how it looks" and "how it works."</p>
+          <p>My toolkit centers on <strong>React</strong> for interfaces that feel immediate, <strong>Python</strong> for logic that stays predictable, and <strong>PostgreSQL</strong> for data models that don't fall apart six months in. Alongside web development, I configure and customize <strong>Odoo ERP</strong> modules — functional and technical — connecting business workflows to a real database layer.</p>
+          <div class="about-facts">
+            <div class="fact"><div class="k">Focus</div><div class="v">Full-stack web &amp; Odoo ERP</div></div>
+            <div class="fact"><div class="k">Studying</div><div class="v">B.Sc. Computer Science, Worabe University</div></div>
+            <div class="fact"><div class="k">Currently</div><div class="v">3rd-year student · open to opportunities</div></div>
+            <div class="fact"><div class="k">Based</div><div class="v">Worabe, Ethiopia</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Skills</div>
+        <h2>Organized the way the stack actually runs.</h2>
+        <p>From what the user touches down to what the database indexes — grouped by the layer each skill lives in.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <span class="layer-tag">Layer 01</span>
+          <h3>Frontend</h3>
+          <ul>
+            <li>React <div class="bar"><span style="width:88%"></span></div></li>
+            <li>JavaScript <div class="bar"><span style="width:90%"></span></div></li>
+            <li>HTML5 &amp; CSS3 <div class="bar"><span style="width:94%"></span></div></li>
+            <li>Responsive UI <div class="bar"><span style="width:90%"></span></div></li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="layer-tag">Layer 02</span>
+          <h3>Languages</h3>
+          <ul>
+            <li>Python <div class="bar"><span style="width:88%"></span></div></li>
+            <li>SQL <div class="bar"><span style="width:85%"></span></div></li>
+            <li>C++ <div class="bar"><span style="width:75%"></span></div></li>
+            <li>Java <div class="bar"><span style="width:72%"></span></div></li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="layer-tag">Layer 03</span>
+          <h3>Data</h3>
+          <ul>
+            <li>PostgreSQL <div class="bar"><span style="width:86%"></span></div></li>
+            <li>pgAdmin 4 <div class="bar"><span style="width:84%"></span></div></li>
+            <li>Database design <div class="bar"><span style="width:82%"></span></div></li>
+            <li>OOP &amp; data structures <div class="bar"><span style="width:85%"></span></div></li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="layer-tag">Layer 04</span>
+          <h3>ERP (Odoo)</h3>
+          <ul>
+            <li>Odoo functional config <div class="bar"><span style="width:80%"></span></div></li>
+            <li>Odoo technical config <div class="bar"><span style="width:78%"></span></div></li>
+            <li>Module customization <div class="bar"><span style="width:76%"></span></div></li>
+            <li>Python &amp; XML for Odoo <div class="bar"><span style="width:78%"></span></div></li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="layer-tag">Layer 05</span>
+          <h3>Tooling</h3>
+          <ul>
+            <li>Git &amp; GitHub <div class="bar"><span style="width:88%"></span></div></li>
+            <li>VS Code <div class="bar"><span style="width:92%"></span></div></li>
+            <li>Netlify hosting <div class="bar"><span style="width:85%"></span></div></li>
+            <li>pgAdmin 4 <div class="bar"><span style="width:80%"></span></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTIFICATIONS -->
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Education</div>
+        <h2>Academic background &amp; certifications.</h2>
+        <p>Formal study paired with focused, verified training.</p>
+      </div>
+      <div class="education-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-body">
+            <div class="edu-top">
+              <h3>B.Sc. in Computer Science</h3>
+              <span class="edu-date">Expected Sept 2026</span>
+            </div>
+            <p class="edu-org">Worabe University</p>
+            <p class="edu-desc">Currently a 3rd-year undergraduate student, focused on full-stack web development and ERP systems alongside core computer science coursework.</p>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon">🚀</div>
+          <div class="edu-body">
+            <div class="edu-top">
+              <h3>Ayrese 6-Skill Tech Accelerator Bootcamp</h3>
+              <span class="edu-date">Jun – Jul 2026</span>
+            </div>
+            <p class="edu-org">Ayrese Tech Show · Six-week intensive program</p>
+            <p class="edu-desc">Six core tracks: UI/UX &amp; Product Design, AI Essentials, Website &amp; AI Agent Development, Digital Marketing, Blockchain &amp; Web3, and Data Analysis &amp; Insights.</p>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon">📜</div>
+          <div class="edu-body">
+            <div class="edu-top">
+              <h3>Programming Fundamentals Nanodegree</h3>
+              <span class="edu-date">June 2025</span>
+            </div>
+            <p class="edu-org">Udacity (part of Accenture) · Verified Certificate</p>
+            <p class="edu-desc">Computational thinking, algorithmic logic, and software design fundamentals.</p>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon">🔧</div>
+          <div class="edu-body">
+            <div class="edu-top">
+              <h3>Basic Computer &amp; Electronics Training</h3>
+              <span class="edu-date">Aug 2022</span>
+            </div>
+            <p class="edu-org">Worabe University STEM Center · 56-hour intensive</p>
+            <p class="edu-desc">Digital logic, hardware fundamentals, and circuits.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Projects</div>
+        <h2>A few systems I've shipped end-to-end.</h2>
+        <p>Each one spans the full stack — interface, API, and schema.</p>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/icons/project1-student-registration.png" alt="Student Registration form screenshot" class="thumb-img" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-top"><span class="project-num">01</span></div>
+            <h3>Student Registration</h3>
+            <p>A clean enrollment form for capturing student details — name, contact, desired course, and account setup — built for clarity on a single screen.</p>
+            <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Form Validation</span></div>
+            <div class="project-links">
+              <a href="https://hilarious-dusk-cdf66c.netlify.app/" target="_blank" rel="noopener noreferrer" class="proj-link">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/icons/project2-college-admission.png" alt="College Admission Registration screenshot" class="thumb-img" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-top"><span class="project-num">02</span></div>
+            <h3>College Admission Registration</h3>
+            <p>A guided, multi-step admission flow with a visible progress indicator, splitting personal details, academic info, and confirmation into clear stages.</p>
+            <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Multi-step Form</span></div>
+            <div class="project-links">
+              <a href="https://registration-form-ccb7ff.netlify.app/" target="_blank" rel="noopener noreferrer" class="proj-link">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/icons/project3-portfolio.png" alt="Nesran Nezif portfolio website screenshot" class="thumb-img" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-top"><span class="project-num">03</span></div>
+            <h3>Personal Portfolio — Nesran Nezif</h3>
+            <p>A dark-themed portfolio for a technical manager, featuring an animated network background and a glowing gradient profile ring.</p>
+            <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Canvas Animation</span></div>
+            <div class="project-links">
+              <a href="https://neserela-nzif-abagero2991.netlify.app/" target="_blank" rel="noopener noreferrer" class="proj-link">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/icons/project4-birthday-card.png" alt="Interactive birthday card screenshot" class="thumb-img" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-top"><span class="project-num">04</span></div>
+            <h3>Interactive Birthday Card</h3>
+            <p>A playful hover-to-reveal greeting card with layered shapes and a smooth open animation — a small, focused piece of CSS craft.</p>
+            <div class="tag-row"><span>HTML</span><span>CSS</span><span>CSS Animation</span></div>
+            <div class="project-links">
+              <a href="https://cbaktrading-birthday-fad3b2.netlify.app/" target="_blank" rel="noopener noreferrer" class="proj-link">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb">
+            <img src="assets/icons/project5-tourism.jpg" alt="Ethiopian Tourism Web Platform screenshot" class="thumb-img" loading="lazy">
+          </div>
+          <div class="project-body">
+            <div class="project-top"><span class="project-num">05</span></div>
+            <h3>Ethiopian Tourism Web Platform</h3>
+            <p>An interactive travel platform showcasing curated destinations, with a bold hero section and clear calls to action for exploring destinations and packages.</p>
+            <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div>
+            <div class="project-links">
+              <a href="https://6b0e54c9.mydala.app" target="_blank" rel="noopener noreferrer" class="proj-link">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Services</div>
+        <h2>How I can help.</h2>
+        <p>Full builds, focused engagements, or an extra pair of senior hands on an existing codebase.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">🧩</div>
+          <h3>Full-Stack Web Apps</h3>
+          <p>End-to-end builds — React front end, Python backend logic, PostgreSQL data model — designed and shipped as one coherent system.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🧭</div>
+          <h3>Odoo ERP Customization</h3>
+          <p>Functional and technical configuration of Odoo modules — connecting business workflows to PostgreSQL via Python and XML.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🗃️</div>
+          <h3>Database Architecture</h3>
+          <p>Schema design, migrations, and query optimization so the data layer stays fast as the product grows.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">⚡</div>
+          <h3>Performance Audits</h3>
+          <p>Front-end and back-end profiling to find real bottlenecks — load time, query cost, render cost — and fix them.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🎨</div>
+          <h3>UI Modernization</h3>
+          <p>Refreshing dated interfaces into responsive, accessible, well-structured component systems.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">🛠️</div>
+          <h3>Technical Consulting</h3>
+          <p>Architecture reviews and roadmap advice for teams deciding how to structure their next build.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Testimonials</div>
+        <h2>What clients say after launch.</h2>
+        <p>A few words from people I've built products with.</p>
+      </div>
+
+      <div class="testimonial-slider reveal" id="testimonialSlider">
+        <div class="testimonial-track" id="testimonialTrack">
+          <blockquote class="testimonial-card">
+            <p>"Lina owned the whole stack without losing sight of the details. Our booking flow finally feels as solid as it looks."</p>
+            <footer>
+              <div class="t-avatar">MK</div>
+              <div><div class="t-name">Marta Kebede</div><div class="t-role">Founder, ClinicFlow</div></div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p>"The API design made our mobile team's job trivial. Clear contracts, sane error handling, no surprises."</p>
+            <footer>
+              <div class="t-avatar">DT</div>
+              <div><div class="t-name">Daniel Tesfaye</div><div class="t-role">CTO, StockPilot</div></div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p>"Our reporting queries went from 4 seconds to under 200ms after Lina's schema rework. Genuinely senior-level work."</p>
+            <footer>
+              <div class="t-avatar">SA</div>
+              <div><div class="t-name">Sara Ahmed</div><div class="t-role">Product Lead, LearnHub</div></div>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Contact</div>
+        <h2>Let's build something solid.</h2>
+        <p>Tell me a bit about the project — I usually reply within a day or two.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="item">
+            <div class="icon">✉️</div>
+            <div><div class="lbl">Email</div><div class="val"><a href="mailto:Linabilal3942@gmail.com">Linabilal3942@gmail.com</a></div></div>
+          </div>
+          <div class="item">
+            <div class="icon">📍</div>
+            <div><div class="lbl">Location</div><div class="val">Worabe, Ethiopia</div></div>
+          </div>
+          <div class="item">
+            <div class="icon">📞</div>
+            <div><div class="lbl">Phone</div><div class="val"><a href="tel:+251939423844">+251 939 423 844</a></div></div>
+          </div>
+          <div class="item">
+            <div class="icon">💬</div>
+            <div><div class="lbl">Response time</div><div class="val">Usually within 24–48 hours</div></div>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/linabilal3942-lab" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/lina-bilal-hamid" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+            <a href="https://www.facebook.com/yantew.negh.3" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
+            <a href="https://t.me/flOowery9" target="_blank" rel="noopener noreferrer" aria-label="Telegram">TG</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name" required>
+              <span class="err" id="errName"></span>
+            </div>
+            <div class="field">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="email" placeholder="you@example.com" required>
+              <span class="err" id="errEmail"></span>
+            </div>
+          </div>
+          <div class="field full" style="margin-bottom:16px;">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="What's this about?">
+          </div>
+          <div class="field full" style="margin-bottom:6px;">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            <span class="err" id="errMessage"></span>
+          </div>
+          <button type="submit" class="submit-btn" id="submitBtn">Send message →</button>
+          <div class="form-success" id="formSuccess">✓ Message sent — I'll get back to you shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo"><img src="assets/icons/logo-icon.svg" alt="" class="logo-mark" width="32" height="32"> Lina Bilal</a>
+      <p>Full-stack web &amp; ERP developer building responsive apps with React &amp; Python, and customizing Odoo ERP systems.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Navigate</h4>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-links">
+      <h4>Elsewhere</h4>
+      <a href="https://github.com/linabilal3942-lab" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/lina-bilal-hamid" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.facebook.com/yantew.negh.3" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://t.me/flOowery9" target="_blank" rel="noopener noreferrer">Telegram</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year"></span> Lina Bilal. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
